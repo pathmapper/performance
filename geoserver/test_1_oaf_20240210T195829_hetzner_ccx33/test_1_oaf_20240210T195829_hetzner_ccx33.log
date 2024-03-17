@@ -1,0 +1,270 @@
+2024-02-10 19:58:51,266 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2024-02-10 19:58:51,277 INFO o.a.j.JMeter: Loading user properties from: /home/user/dev/jmeter/apache-jmeter-5.6.3/bin/user.properties
+2024-02-10 19:58:51,277 INFO o.a.j.JMeter: Loading system properties from: /home/user/dev/jmeter/apache-jmeter-5.6.3/bin/system.properties
+2024-02-10 19:58:51,277 INFO o.a.j.JMeter: Setting JMeter property: jmeter.reportgenerator.overall_granularity=10000
+2024-02-10 19:58:51,280 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2024-02-10 19:58:51,280 INFO o.a.j.JMeter: Version 5.6.3
+2024-02-10 19:58:51,280 INFO o.a.j.JMeter: java.version=21.0.1
+2024-02-10 19:58:51,280 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2024-02-10 19:58:51,280 INFO o.a.j.JMeter: os.name=Linux
+2024-02-10 19:58:51,280 INFO o.a.j.JMeter: os.arch=amd64
+2024-02-10 19:58:51,280 INFO o.a.j.JMeter: os.version=6.5.0-17-generic
+2024-02-10 19:58:51,280 INFO o.a.j.JMeter: file.encoding=UTF-8
+2024-02-10 19:58:51,280 INFO o.a.j.JMeter: java.awt.headless=true
+2024-02-10 19:58:51,281 INFO o.a.j.JMeter: Max memory     =1073741824
+2024-02-10 19:58:51,281 INFO o.a.j.JMeter: Available Processors =32
+2024-02-10 19:58:51,287 INFO o.a.j.JMeter: Default Locale=English (EN)
+2024-02-10 19:58:51,287 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2024-02-10 19:58:51,287 INFO o.a.j.JMeter: JMeterHome=/home/user/dev/jmeter/apache-jmeter-5.6.3
+2024-02-10 19:58:51,287 INFO o.a.j.JMeter: user.dir  =/home/user/Documents/masterthesis/github/geoserver
+2024-02-10 19:58:51,287 INFO o.a.j.JMeter: PWD       =/home/user/Documents/masterthesis/github/geoserver
+2024-02-10 19:58:51,288 INFO o.a.j.JMeter: IP: 127.0.1.1 Name: user-desktop FullName: user-desktop
+2024-02-10 19:58:51,296 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'/home/user/Documents/masterthesis/github/geoserver/test_1_oaf_20240210T195829_hetzner_ccx33/report'
+2024-02-10 19:58:51,297 INFO o.a.j.s.FileServer: Default base='/home/user/Documents/masterthesis/github/geoserver'
+2024-02-10 19:58:51,298 INFO o.a.j.s.FileServer: Set new base='/home/user/Documents/masterthesis/github/geoserver'
+2024-02-10 19:58:51,418 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2024-02-10 19:58:51,441 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2024-02-10 19:58:51,443 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2024-02-10 19:58:51,445 INFO o.a.j.s.SaveService: Loading file: test_1_oaf.jmx
+2024-02-10 19:58:51,482 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-02-10 19:58:51,482 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-02-10 19:58:51,482 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-02-10 19:58:51,482 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-02-10 19:58:51,482 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2024-02-10 19:58:51,482 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2024-02-10 19:58:51,512 INFO o.a.j.JMeter: Creating summariser <summary>
+2024-02-10 19:58:51,514 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2024-02-10 19:58:51,514 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: /home/user/Documents/masterthesis/github/geoserver/test_1_oaf_20240210T195829_hetzner_ccx33/test_1_oaf_20240210T195829_hetzner_ccx33.jtl
+2024-02-10 19:58:51,514 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: /home/user/dev/jmeter/apache-jmeter-5.6.3/bin/reportgenerator.properties
+2024-02-10 19:58:51,514 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2024-02-10 19:58:51,516 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2024-02-10 19:58:51,518 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2024-02-10 19:58:51,518 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction is empty, not APDEX per transaction customization
+2024-02-10 19:58:51,518 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2024-02-10 19:58:51,518 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
+2024-02-10 19:58:51,518 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2024-02-10 19:58:51,518 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2024-02-10 19:58:51,519 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2024-02-10 19:58:51,519 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2024-02-10 19:58:51,521 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
+2024-02-10 19:58:51,521 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2024-02-10 19:58:51,521 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2024-02-10 19:58:51,521 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2024-02-10 19:58:51,522 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2024-02-10 19:58:51,522 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2024-02-10 19:58:51,522 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2024-02-10 19:58:51,522 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2024-02-10 19:58:51,522 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+2024-02-10 19:58:51,522 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2024-02-10 19:58:51,523 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.filters_only_sample_series' not found, using default value 'true' instead.
+2024-02-10 19:58:51,523 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.series_filter' not found, using default value '' instead.
+2024-02-10 19:58:51,523 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.show_controllers_only' not found, using default value 'false' instead.
+2024-02-10 19:58:51,523 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+2024-02-10 19:58:51,523 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
+2024-02-10 19:58:51,523 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+2024-02-10 19:58:51,531 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2024-02-10 19:58:51,532 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-02-10 19:58:51,532 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-02-10 19:58:51,536 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2024-02-10 19:58:51,536 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2024-02-10 19:58:51,578 INFO o.a.j.JMeter: Running test (1707591531578)
+2024-02-10 19:58:51,600 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 1
+2024-02-10 19:58:51,600 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 1.
+2024-02-10 19:58:51,600 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-02-10 19:58:51,600 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2024-02-10 19:58:51,603 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2024-02-10 19:58:51,603 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: 1 to finish before starting next group
+2024-02-10 19:58:51,625 INFO o.a.j.t.JMeterThread: Thread started: 1 1-1
+2024-02-10 19:58:51,626 INFO o.a.j.s.FileServer: Stored: ../csv/pays.csv
+2024-02-10 19:58:51,640 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = user-desktop
+2024-02-10 19:58:51,643 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2024-02-10 19:58:51,644 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2024-02-10 19:58:51,644 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2024-02-10 19:58:51,644 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2024-02-10 19:58:51,644 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2024-02-10 19:59:00,002 INFO o.a.j.r.Summariser: Generate Summary Results +     38 in 00:00:08 =    4.5/s Avg:   218 Min:    35 Max:  2056 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+2024-02-10 19:59:00,003 INFO o.a.j.r.Summariser: summary +     38 in 00:00:08 =    4.5/s Avg:   218 Min:    35 Max:  2056 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+2024-02-10 19:59:09,596 INFO o.a.j.t.JMeterThread: Thread is done: 1 1-1
+2024-02-10 19:59:09,596 INFO o.a.j.t.JMeterThread: Thread finished: 1 1-1
+2024-02-10 19:59:09,597 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : 2
+2024-02-10 19:59:09,597 INFO o.a.j.e.StandardJMeterEngine: Starting 2 threads for group 2.
+2024-02-10 19:59:09,597 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-02-10 19:59:09,597 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=2 ramp-up=1 delayedStart=false
+2024-02-10 19:59:09,598 INFO o.a.j.t.ThreadGroup: Started thread group number 2
+2024-02-10 19:59:09,598 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: 2 to finish before starting next group
+2024-02-10 19:59:09,598 INFO o.a.j.t.JMeterThread: Thread started: 2 2-1
+2024-02-10 19:59:10,098 INFO o.a.j.t.JMeterThread: Thread started: 2 2-2
+2024-02-10 19:59:25,907 INFO o.a.j.t.JMeterThread: Thread is done: 2 2-2
+2024-02-10 19:59:25,907 INFO o.a.j.t.JMeterThread: Thread finished: 2 2-2
+2024-02-10 19:59:25,929 INFO o.a.j.t.JMeterThread: Thread is done: 2 2-1
+2024-02-10 19:59:25,929 INFO o.a.j.t.JMeterThread: Thread finished: 2 2-1
+2024-02-10 19:59:25,929 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 3 : 4
+2024-02-10 19:59:25,929 INFO o.a.j.e.StandardJMeterEngine: Starting 4 threads for group 4.
+2024-02-10 19:59:25,929 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-02-10 19:59:25,929 INFO o.a.j.t.ThreadGroup: Starting thread group... number=3 threads=4 ramp-up=1 delayedStart=false
+2024-02-10 19:59:25,930 INFO o.a.j.t.JMeterThread: Thread started: 4 3-1
+2024-02-10 19:59:25,931 INFO o.a.j.t.ThreadGroup: Started thread group number 3
+2024-02-10 19:59:25,931 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: 4 to finish before starting next group
+2024-02-10 19:59:26,180 INFO o.a.j.t.JMeterThread: Thread started: 4 3-2
+2024-02-10 19:59:26,430 INFO o.a.j.t.JMeterThread: Thread started: 4 3-3
+2024-02-10 19:59:26,679 INFO o.a.j.t.JMeterThread: Thread started: 4 3-4
+2024-02-10 19:59:30,001 INFO o.a.j.r.Summariser: Generate Summary Results +    325 in 00:00:30 =   10.8/s Avg:   169 Min:    31 Max:  2517 Err:     0 (0.00%) Active: 4 Started: 7 Finished: 3
+2024-02-10 19:59:30,001 INFO o.a.j.r.Summariser: Generate Summary Results =    363 in 00:00:38 =    9.4/s Avg:   174 Min:    31 Max:  2517 Err:     0 (0.00%)
+2024-02-10 19:59:30,002 INFO o.a.j.r.Summariser: summary +    325 in 00:00:30 =   10.8/s Avg:   169 Min:    31 Max:  2517 Err:     0 (0.00%) Active: 4 Started: 7 Finished: 3
+2024-02-10 19:59:30,002 INFO o.a.j.r.Summariser: summary =    363 in 00:00:38 =    9.4/s Avg:   174 Min:    31 Max:  2517 Err:     0 (0.00%)
+2024-02-10 19:59:44,492 INFO o.a.j.t.JMeterThread: Thread is done: 4 3-1
+2024-02-10 19:59:44,493 INFO o.a.j.t.JMeterThread: Thread finished: 4 3-1
+2024-02-10 19:59:47,718 INFO o.a.j.t.JMeterThread: Thread is done: 4 3-2
+2024-02-10 19:59:47,718 INFO o.a.j.t.JMeterThread: Thread finished: 4 3-2
+2024-02-10 19:59:48,353 INFO o.a.j.t.JMeterThread: Thread is done: 4 3-3
+2024-02-10 19:59:48,354 INFO o.a.j.t.JMeterThread: Thread finished: 4 3-3
+2024-02-10 19:59:49,575 INFO o.a.j.t.JMeterThread: Thread is done: 4 3-4
+2024-02-10 19:59:49,576 INFO o.a.j.t.JMeterThread: Thread finished: 4 3-4
+2024-02-10 19:59:49,576 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 4 : 8
+2024-02-10 19:59:49,576 INFO o.a.j.e.StandardJMeterEngine: Starting 8 threads for group 8.
+2024-02-10 19:59:49,576 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-02-10 19:59:49,576 INFO o.a.j.t.ThreadGroup: Starting thread group... number=4 threads=8 ramp-up=1 delayedStart=false
+2024-02-10 19:59:49,578 INFO o.a.j.t.JMeterThread: Thread started: 8 4-1
+2024-02-10 19:59:49,581 INFO o.a.j.t.ThreadGroup: Started thread group number 4
+2024-02-10 19:59:49,581 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: 8 to finish before starting next group
+2024-02-10 19:59:49,702 INFO o.a.j.t.JMeterThread: Thread started: 8 4-2
+2024-02-10 19:59:49,827 INFO o.a.j.t.JMeterThread: Thread started: 8 4-3
+2024-02-10 19:59:49,952 INFO o.a.j.t.JMeterThread: Thread started: 8 4-4
+2024-02-10 19:59:50,077 INFO o.a.j.t.JMeterThread: Thread started: 8 4-5
+2024-02-10 19:59:50,203 INFO o.a.j.t.JMeterThread: Thread started: 8 4-6
+2024-02-10 19:59:50,327 INFO o.a.j.t.JMeterThread: Thread started: 8 4-7
+2024-02-10 19:59:50,451 INFO o.a.j.t.JMeterThread: Thread started: 8 4-8
+2024-02-10 20:00:00,043 INFO o.a.j.r.Summariser: Generate Summary Results +    561 in 00:00:30 =   18.7/s Avg:   261 Min:    28 Max:  3513 Err:     0 (0.00%) Active: 8 Started: 15 Finished: 7
+2024-02-10 20:00:00,044 INFO o.a.j.r.Summariser: Generate Summary Results =    924 in 00:01:08 =   13.5/s Avg:   227 Min:    28 Max:  3513 Err:     0 (0.00%)
+2024-02-10 20:00:00,044 INFO o.a.j.r.Summariser: summary +    561 in 00:00:30 =   18.7/s Avg:   261 Min:    28 Max:  3513 Err:     0 (0.00%) Active: 8 Started: 15 Finished: 7
+2024-02-10 20:00:00,045 INFO o.a.j.r.Summariser: summary =    924 in 00:01:08 =   13.5/s Avg:   227 Min:    28 Max:  3513 Err:     0 (0.00%)
+2024-02-10 20:00:17,638 INFO o.a.j.t.JMeterThread: Thread is done: 8 4-1
+2024-02-10 20:00:17,639 INFO o.a.j.t.JMeterThread: Thread finished: 8 4-1
+2024-02-10 20:00:24,791 INFO o.a.j.t.JMeterThread: Thread is done: 8 4-5
+2024-02-10 20:00:24,791 INFO o.a.j.t.JMeterThread: Thread finished: 8 4-5
+2024-02-10 20:00:25,233 INFO o.a.j.t.JMeterThread: Thread is done: 8 4-2
+2024-02-10 20:00:25,234 INFO o.a.j.t.JMeterThread: Thread finished: 8 4-2
+2024-02-10 20:00:26,470 INFO o.a.j.t.JMeterThread: Thread is done: 8 4-7
+2024-02-10 20:00:26,471 INFO o.a.j.t.JMeterThread: Thread finished: 8 4-7
+2024-02-10 20:00:26,516 INFO o.a.j.t.JMeterThread: Thread is done: 8 4-4
+2024-02-10 20:00:26,516 INFO o.a.j.t.JMeterThread: Thread finished: 8 4-4
+2024-02-10 20:00:27,105 INFO o.a.j.t.JMeterThread: Thread is done: 8 4-8
+2024-02-10 20:00:27,105 INFO o.a.j.t.JMeterThread: Thread finished: 8 4-8
+2024-02-10 20:00:27,593 INFO o.a.j.t.JMeterThread: Thread is done: 8 4-3
+2024-02-10 20:00:27,593 INFO o.a.j.t.JMeterThread: Thread finished: 8 4-3
+2024-02-10 20:00:28,409 INFO o.a.j.t.JMeterThread: Thread is done: 8 4-6
+2024-02-10 20:00:28,409 INFO o.a.j.t.JMeterThread: Thread finished: 8 4-6
+2024-02-10 20:00:28,410 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 5 : 16
+2024-02-10 20:00:28,410 INFO o.a.j.e.StandardJMeterEngine: Starting 16 threads for group 16.
+2024-02-10 20:00:28,410 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-02-10 20:00:28,410 INFO o.a.j.t.ThreadGroup: Starting thread group... number=5 threads=16 ramp-up=1 delayedStart=false
+2024-02-10 20:00:28,411 INFO o.a.j.t.JMeterThread: Thread started: 16 5-1
+2024-02-10 20:00:28,418 INFO o.a.j.t.ThreadGroup: Started thread group number 5
+2024-02-10 20:00:28,418 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2024-02-10 20:00:28,474 INFO o.a.j.t.JMeterThread: Thread started: 16 5-2
+2024-02-10 20:00:28,537 INFO o.a.j.t.JMeterThread: Thread started: 16 5-3
+2024-02-10 20:00:28,600 INFO o.a.j.t.JMeterThread: Thread started: 16 5-4
+2024-02-10 20:00:28,663 INFO o.a.j.t.JMeterThread: Thread started: 16 5-5
+2024-02-10 20:00:28,726 INFO o.a.j.t.JMeterThread: Thread started: 16 5-6
+2024-02-10 20:00:28,789 INFO o.a.j.t.JMeterThread: Thread started: 16 5-7
+2024-02-10 20:00:28,851 INFO o.a.j.t.JMeterThread: Thread started: 16 5-8
+2024-02-10 20:00:28,915 INFO o.a.j.t.JMeterThread: Thread started: 16 5-9
+2024-02-10 20:00:28,978 INFO o.a.j.t.JMeterThread: Thread started: 16 5-10
+2024-02-10 20:00:29,040 INFO o.a.j.t.JMeterThread: Thread started: 16 5-11
+2024-02-10 20:00:29,104 INFO o.a.j.t.JMeterThread: Thread started: 16 5-12
+2024-02-10 20:00:29,166 INFO o.a.j.t.JMeterThread: Thread started: 16 5-13
+2024-02-10 20:00:29,230 INFO o.a.j.t.JMeterThread: Thread started: 16 5-14
+2024-02-10 20:00:29,292 INFO o.a.j.t.JMeterThread: Thread started: 16 5-15
+2024-02-10 20:00:29,356 INFO o.a.j.t.JMeterThread: Thread started: 16 5-16
+2024-02-10 20:00:30,008 INFO o.a.j.r.Summariser: Generate Summary Results +    623 in 00:00:30 =   20.8/s Avg:   351 Min:    28 Max:  3837 Err:     0 (0.00%) Active: 16 Started: 31 Finished: 15
+2024-02-10 20:00:30,008 INFO o.a.j.r.Summariser: Generate Summary Results =   1547 in 00:01:38 =   15.7/s Avg:   277 Min:    28 Max:  3837 Err:     0 (0.00%)
+2024-02-10 20:00:30,009 INFO o.a.j.r.Summariser: summary +    623 in 00:00:30 =   20.8/s Avg:   351 Min:    28 Max:  3837 Err:     0 (0.00%) Active: 16 Started: 31 Finished: 15
+2024-02-10 20:00:30,009 INFO o.a.j.r.Summariser: summary =   1547 in 00:01:38 =   15.7/s Avg:   277 Min:    28 Max:  3837 Err:     0 (0.00%)
+2024-02-10 20:01:00,056 INFO o.a.j.r.Summariser: Generate Summary Results +    631 in 00:00:30 =   21.0/s Avg:   719 Min:    57 Max: 10406 Err:     0 (0.00%) Active: 16 Started: 31 Finished: 15
+2024-02-10 20:01:00,057 INFO o.a.j.r.Summariser: Generate Summary Results =   2178 in 00:02:08 =   17.0/s Avg:   405 Min:    28 Max: 10406 Err:     0 (0.00%)
+2024-02-10 20:01:00,057 INFO o.a.j.r.Summariser: summary +    631 in 00:00:30 =   21.0/s Avg:   719 Min:    57 Max: 10406 Err:     0 (0.00%) Active: 16 Started: 31 Finished: 15
+2024-02-10 20:01:00,057 INFO o.a.j.r.Summariser: summary =   2178 in 00:02:08 =   17.0/s Avg:   405 Min:    28 Max: 10406 Err:     0 (0.00%)
+2024-02-10 20:01:26,940 INFO o.a.j.t.JMeterThread: Thread is done: 16 5-9
+2024-02-10 20:01:26,941 INFO o.a.j.t.JMeterThread: Thread finished: 16 5-9
+2024-02-10 20:01:30,122 INFO o.a.j.r.Summariser: Generate Summary Results +    637 in 00:00:30 =   21.2/s Avg:   789 Min:    44 Max: 22777 Err:     0 (0.00%) Active: 15 Started: 31 Finished: 16
+2024-02-10 20:01:30,123 INFO o.a.j.r.Summariser: Generate Summary Results =   2815 in 00:02:39 =   17.8/s Avg:   492 Min:    28 Max: 22777 Err:     0 (0.00%)
+2024-02-10 20:01:30,123 INFO o.a.j.r.Summariser: summary +    637 in 00:00:30 =   21.2/s Avg:   789 Min:    44 Max: 22777 Err:     0 (0.00%) Active: 15 Started: 31 Finished: 16
+2024-02-10 20:01:30,123 INFO o.a.j.r.Summariser: summary =   2815 in 00:02:39 =   17.8/s Avg:   492 Min:    28 Max: 22777 Err:     0 (0.00%)
+2024-02-10 20:01:32,530 INFO o.a.j.t.JMeterThread: Thread is done: 16 5-11
+2024-02-10 20:01:32,530 INFO o.a.j.t.JMeterThread: Thread finished: 16 5-11
+2024-02-10 20:01:32,803 INFO o.a.j.t.JMeterThread: Thread is done: 16 5-16
+2024-02-10 20:01:32,803 INFO o.a.j.t.JMeterThread: Thread finished: 16 5-16
+2024-02-10 20:01:34,972 INFO o.a.j.t.JMeterThread: Thread is done: 16 5-6
+2024-02-10 20:01:34,973 INFO o.a.j.t.JMeterThread: Thread finished: 16 5-6
+2024-02-10 20:01:36,697 INFO o.a.j.t.JMeterThread: Thread is done: 16 5-3
+2024-02-10 20:01:36,698 INFO o.a.j.t.JMeterThread: Thread finished: 16 5-3
+2024-02-10 20:01:37,145 INFO o.a.j.t.JMeterThread: Thread is done: 16 5-10
+2024-02-10 20:01:37,145 INFO o.a.j.t.JMeterThread: Thread finished: 16 5-10
+2024-02-10 20:01:37,183 INFO o.a.j.t.JMeterThread: Thread is done: 16 5-12
+2024-02-10 20:01:37,183 INFO o.a.j.t.JMeterThread: Thread finished: 16 5-12
+2024-02-10 20:01:37,983 INFO o.a.j.t.JMeterThread: Thread is done: 16 5-4
+2024-02-10 20:01:37,983 INFO o.a.j.t.JMeterThread: Thread finished: 16 5-4
+2024-02-10 20:01:39,432 INFO o.a.j.t.JMeterThread: Thread is done: 16 5-8
+2024-02-10 20:01:39,432 INFO o.a.j.t.JMeterThread: Thread finished: 16 5-8
+2024-02-10 20:01:40,344 INFO o.a.j.t.JMeterThread: Thread is done: 16 5-7
+2024-02-10 20:01:40,344 INFO o.a.j.t.JMeterThread: Thread finished: 16 5-7
+2024-02-10 20:01:40,613 INFO o.a.j.t.JMeterThread: Thread is done: 16 5-14
+2024-02-10 20:01:40,613 INFO o.a.j.t.JMeterThread: Thread finished: 16 5-14
+2024-02-10 20:01:41,992 INFO o.a.j.t.JMeterThread: Thread is done: 16 5-1
+2024-02-10 20:01:41,992 INFO o.a.j.t.JMeterThread: Thread finished: 16 5-1
+2024-02-10 20:01:42,464 INFO o.a.j.t.JMeterThread: Thread is done: 16 5-15
+2024-02-10 20:01:42,464 INFO o.a.j.t.JMeterThread: Thread finished: 16 5-15
+2024-02-10 20:01:43,666 INFO o.a.j.t.JMeterThread: Thread is done: 16 5-13
+2024-02-10 20:01:43,667 INFO o.a.j.t.JMeterThread: Thread finished: 16 5-13
+2024-02-10 20:01:44,943 INFO o.a.j.t.JMeterThread: Thread is done: 16 5-2
+2024-02-10 20:01:44,943 INFO o.a.j.t.JMeterThread: Thread finished: 16 5-2
+2024-02-10 20:01:47,417 INFO o.a.j.t.JMeterThread: Thread is done: 16 5-5
+2024-02-10 20:01:47,418 INFO o.a.j.t.JMeterThread: Thread finished: 16 5-5
+2024-02-10 20:01:47,418 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2024-02-10 20:01:47,418 INFO o.a.j.s.FileServer: Close: ../csv/pays.csv
+2024-02-10 20:01:47,424 INFO o.a.j.r.Summariser: summary +    285 in 00:00:17 =   16.5/s Avg:   516 Min:    29 Max:  6598 Err:     0 (0.00%) Active: 0 Started: 31 Finished: 31
+2024-02-10 20:01:47,424 INFO o.a.j.r.Summariser: summary =   3100 in 00:02:56 =   17.6/s Avg:   494 Min:    28 Max: 22777 Err:     0 (0.00%)
+2024-02-10 20:01:47,425 INFO o.a.j.r.Summariser: Generate Summary Results +    285 in 00:00:17 =   16.5/s Avg:   516 Min:    29 Max:  6598 Err:     0 (0.00%) Active: 0 Started: 31 Finished: 31
+2024-02-10 20:01:47,425 INFO o.a.j.r.Summariser: Generate Summary Results =   3100 in 00:02:56 =   17.6/s Avg:   494 Min:    28 Max: 22777 Err:     0 (0.00%)
+2024-02-10 20:01:47,425 INFO o.a.j.JMeter: Generating Dashboard
+2024-02-10 20:01:47,425 INFO o.a.j.r.d.ReportGenerator: Flushing result collector before report Generation
+2024-02-10 20:01:47,436 INFO o.a.j.r.p.NormalizerSampleConsumer: Using format, 'ms', to parse timeStamp field
+2024-02-10 20:01:47,583 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): beginDate produced 0 samples
+2024-02-10 20:01:47,583 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): endDate produced 0 samples
+2024-02-10 20:01:47,584 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ApdexSummaryConsumer#stopProducing(): apdexSummary produced 0 samples
+2024-02-10 20:01:47,584 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.RequestsSummaryConsumer#stopProducing(): requestsSummary produced 0 samples
+2024-02-10 20:01:47,588 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.StatisticsSummaryConsumer#stopProducing(): statisticsSummary produced 0 samples
+2024-02-10 20:01:47,589 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.Top5ErrorsBySamplerConsumer#stopProducing(): top5ErrorsBySampler produced 0 samples
+2024-02-10 20:01:47,589 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ErrorsSummaryConsumer#stopProducing(): errorsSummary produced 0 samples
+2024-02-10 20:01:47,589 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.HitsPerSecondGraphConsumer#stopProducing(): hitsPerSecond produced 0 samples
+2024-02-10 20:01:47,621 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyVSRequestGraphConsumer#stopProducing(): latencyVsRequest produced 0 samples
+2024-02-10 20:01:47,622 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.SyntheticResponseTimeDistributionGraphConsumer#stopProducing(): syntheticResponseTimeDistribution produced 0 samples
+2024-02-10 20:01:47,622 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.BytesThroughputGraphConsumer#stopProducing(): bytesThroughputOverTime produced 0 samples
+2024-02-10 20:01:47,622 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.CodesPerSecondGraphConsumer#stopProducing(): codesPerSecond produced 0 samples
+2024-02-10 20:01:47,641 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeVSRequestGraphConsumer#stopProducing(): responseTimeVsRequest produced 0 samples
+2024-02-10 20:01:47,642 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): startIntervalControlerFilter produced 21700 samples
+2024-02-10 20:01:47,642 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TotalTPSGraphConsumer#stopProducing(): totalTPS produced 0 samples
+2024-02-10 20:01:47,642 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ActiveThreadsGraphConsumer#stopProducing(): activeThreadsOverTime produced 0 samples
+2024-02-10 20:01:47,642 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TimeVSThreadGraphConsumer#stopProducing(): timeVsThreads produced 0 samples
+2024-02-10 20:01:47,642 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeDistributionGraphConsumer#stopProducing(): responseTimeDistribution produced 0 samples
+2024-02-10 20:01:47,642 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TransactionsPerSecondGraphConsumer#stopProducing(): transactionsPerSecond produced 0 samples
+2024-02-10 20:01:47,643 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesGraphConsumer#stopProducing(): responseTimePercentiles produced 0 samples
+2024-02-10 20:01:47,645 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesOverTimeGraphConsumer#stopProducing(): responseTimePercentilesOverTime produced 0 samples
+2024-02-10 20:01:47,646 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeOverTimeGraphConsumer#stopProducing(): responseTimesOverTime produced 0 samples
+2024-02-10 20:01:47,647 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ConnectTimeOverTimeGraphConsumer#stopProducing(): connectTimeOverTime produced 0 samples
+2024-02-10 20:01:47,647 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyOverTimeGraphConsumer#stopProducing(): latenciesOverTime produced 0 samples
+2024-02-10 20:01:47,647 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): nameFilter produced 46500 samples
+2024-02-10 20:01:47,647 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): dateRangeFilter produced 9300 samples
+2024-02-10 20:01:47,647 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.NormalizerSampleConsumer#stopProducing(): normalizer produced 3100 samples
+2024-02-10 20:01:47,647 INFO o.a.j.r.p.CsvFileSampleSource: produce(): 3100 samples produced in 188ms on channel 0
+2024-02-10 20:01:47,648 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'json' of className:'org.apache.jmeter.report.dashboard.JsonExporter'
+2024-02-10 20:01:47,691 INFO o.a.j.r.d.JsonExporter: Found data for consumer statisticsSummary in context
+2024-02-10 20:01:47,691 INFO o.a.j.r.d.JsonExporter: Creating statistics for overall
+2024-02-10 20:01:47,691 INFO o.a.j.r.d.JsonExporter: Creating statistics for other transactions
+2024-02-10 20:01:47,691 INFO o.a.j.r.d.JsonExporter: Checking output folder
+2024-02-10 20:01:47,691 INFO o.a.j.r.d.JsonExporter: Writing statistics JSON to /home/user/Documents/masterthesis/github/geoserver/test_1_oaf_20240210T195829_hetzner_ccx33/report/statistics.json
+2024-02-10 20:01:47,716 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'html' of className:'org.apache.jmeter.report.dashboard.HtmlTemplateExporter'
+2024-02-10 20:01:47,717 INFO o.a.j.r.d.HtmlTemplateExporter: Will generate dashboard in folder: /home/user/Documents/masterthesis/github/geoserver/test_1_oaf_20240210T195829_hetzner_ccx33/report
+2024-02-10 20:01:47,785 INFO o.a.j.r.d.HtmlTemplateExporter: Report will be generated in: /home/user/Documents/masterthesis/github/geoserver/test_1_oaf_20240210T195829_hetzner_ccx33/report, creating folder structure
+2024-02-10 20:01:47,786 INFO o.a.j.r.d.TemplateVisitor: Copying folder from '/home/user/dev/jmeter/apache-jmeter-5.6.3/bin/report-template' to '/home/user/Documents/masterthesis/github/geoserver/test_1_oaf_20240210T195829_hetzner_ccx33/report', got message: /home/user/Documents/masterthesis/github/geoserver/test_1_oaf_20240210T195829_hetzner_ccx33/report, found non empty folder with following content [/home/user/Documents/masterthesis/github/geoserver/test_1_oaf_20240210T195829_hetzner_ccx33/report/statistics.json], will be ignored
+2024-02-10 20:01:47,904 INFO o.a.j.JMeter: Dashboard generated
